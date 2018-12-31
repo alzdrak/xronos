@@ -1,0 +1,21 @@
+{
+  "name": "xronos",
+  "version": "1.0.0-beta",
+  "description": "⏳ Simple timer application for windows that runs in the taskbar.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "npm test"
+  },
+  "keywords": [
+    "xronos",
+    "timer",
+    "pomodoro",
+    "tracking"
+  ],
+  "author": "Nick De Beer",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.0"
+  }
+}

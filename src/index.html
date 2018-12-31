@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>xronos</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main" style="-webkit-app-region: drag;">
+      <div class="container"></div>
+      <div class="header"><h1>xronos</h1></div>
+      <div class="window-options">
+        <div class="button-close" id="button-close">
+          <span class="fa fa-times fa-lg"></span>
+        </div>
+      </div>
+      <div class="button" id="button" style="-webkit-app-region: no-drag;">
+        <div class="button-container">
+          <div class="button-icon" id="button-icon">
+            <span class="fa fa-play fa-2x"></span>
+          </div>
+        </div>
+      </div>
+      <div class="timer"><h1 id="counter"></h1></div>
+    </div>
+
+    <script>
+      require("./index.js");
+    </script>
+  </body>
+</html>

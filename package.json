@@ -2,7 +2,7 @@
   "name": "xronos",
   "version": "1.0.0-beta",
   "description": "⏳ Simple timer application for windows that runs in the taskbar.",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
     "start": "electron .",
     "test": "npm test"
@@ -17,5 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^4.0.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
